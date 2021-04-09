@@ -1,0 +1,14 @@
+.index
+.log
+.project
+.classpath
+.class
+.index 
+.snap 
+.resources
+.prefs
+#Ignore all .meta file
+*.meta
+#But not source file with postfix. which is everything but a folder
+!*.*.meta
+/.metadata/
