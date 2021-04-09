@@ -1,5 +1,8 @@
 package com.vikas.main;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Food {
 	
 	public void receipe()

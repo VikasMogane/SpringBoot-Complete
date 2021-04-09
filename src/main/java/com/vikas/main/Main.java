@@ -17,11 +17,15 @@ public class Main {
 	
 public static void main(String[] args) {
 	
-	//ApplicationContext con =SpringApplication.run(Main.class, args);
 
-	ApplicationContext con = new AnnotationConfigApplicationContext(Config.class);
-	Person person = con.getBean(Person.class);
+	ApplicationContext con =SpringApplication.run(Main.class, args);
+	Person person =con.getBean(Person.class);
 	person.eat();
+	
+	
+//	ApplicationContext con = new AnnotationConfigApplicationContext(Config.class);
+//	Person person = con.getBean(Person.class);
+//	person.eat();
 	
 }
 
